@@ -35,7 +35,7 @@ export class DashboardPage extends Component {
         }
         return (
             <div>
-                <Header />
+                <Header cash={this.props.total_amount} />
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-md-3">
