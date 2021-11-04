@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans&family=Raleway:wght@100;200&display=swap');
+*{
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  
+}
+
+body {
+  height: 100%;
+  /* width: 100%; */
+  font-family: "Poppins", sans-serif !important;
+  /* font-family: 'Roboto', sans-serif; */
+  /* font-family: 'Quattrocento Sans', sans-serif; */
+  scroll-behavior: smooth;
+}
+
+.chartCard{
+  border-radius: 10px;
+  margin-top: 10px !important;
+}
+
+.toogleChart{
+  font-size: 1.5em;
+}
+
+.customForm .row{
+  margin-top: 10px !important;
+}
+
+
+.userProfileCard{
+  cursor: pointer;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .lineChart
+  {
+    height: 400px;
+  }
+
+  .addTrasc,
+  .userProfile{
+    font-size: 0.954em;  
+  }
+  
+}
